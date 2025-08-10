@@ -24,7 +24,6 @@ def normalizar_nombres(nombres):
         for nombrecito in nombrecito:
             if nombrecito not in nombres_normalizados:
                 nombres_normalizados.append(nombrecito)
-
     return nombres_normalizados
 
 #valida la funcion
