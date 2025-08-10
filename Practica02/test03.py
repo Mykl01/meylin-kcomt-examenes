@@ -64,13 +64,14 @@ def normalizar_telefonos(numeros, pais_defecto):
 
 
 lista_inicial = [
-    "987-654-321",
+    "985/152-325",
    "+569876--------54521",
-    "+589876--------54521",
+    "+58---9876-----54521",
     "(+54)123456789",
-    "invalid_text",
     "987 654    321",
     "+51917855678",
+    "abz",
+    "Fiorella"
 ]
 
 pais_defecto = "AR"
