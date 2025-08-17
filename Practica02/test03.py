@@ -63,6 +63,7 @@ def normalizar_telefonos(numeros, pais_defecto):
 
 
 
+
 lista_inicial = [
     "985/152-325",
    "+569876--------54521",
@@ -85,3 +86,5 @@ print("Lista inicial es:{} ".format(lista_inicial))
 print("País por defecto: {}".format(pais_defecto))
 print("Números Válidos:", resultado_final["validos"])
 print("Números Inválidos:", resultado_final["invalidos"])
+
+normalizar_telefonos(numeros:"789899", pais_defecto:"PE")
